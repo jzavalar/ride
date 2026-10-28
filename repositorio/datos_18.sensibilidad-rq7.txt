@@ -1,0 +1,46 @@
+Versión de R: R version 4.3.3 (2024-02-29) 
+
+RQ7 canónica: 5 áreas x 8 líneas
+   tabla 5 x 8, n = 100 | esperadas < 5: 87.5%
+   Fisher simulado: p = 0.0341 (ee = 0.00041) | B = 200000 | set.seed(20260729)
+   V de Cramér: 0.4168
+            
+             Desarrollo del Paisaje Rural Desarrollo Regional Desarrollo rural
+  Agronómica                            4                   0                1
+  Alimentos                             0                   0                0
+  Economía                              1                   1                0
+  Otras                                 5                   0                0
+  Social                                7                   1                5
+            
+             Energías Manejo y Aprovechamiento del Paisaje Rural
+  Agronómica        0                                         15
+  Alimentos         0                                          2
+  Economía          0                                          0
+  Otras             1                                         10
+  Social            0                                         28
+            
+             Paisaje y Turismo Rural Sociología Urbanismo y Relaciones de Poder
+  Agronómica                       8          0                               0
+  Alimentos                        0          0                               0
+  Economía                         0          0                               1
+  Otras                            1          1                               0
+  Social                           8          0                               0
+
+Áreas con >= 5 casos: Agronómica, Otras, Social | excluidas: Alimentos, Economía 
+
+Sensibilidad 1: áreas con >= 5 casos x líneas observadas
+   tabla 3 x 7, n = 95 | esperadas < 5: 71.4%
+   Fisher simulado: p = 0.2021 (ee = 0.00090) | B = 200000 | set.seed(20260731)
+   V de Cramér: 0.3003
+
+Sensibilidad 2: áreas con >= 5 casos x (tres líneas + otra)
+   tabla 3 x 4, n = 95 | esperadas < 5: 50.0%
+   Fisher simulado: p = 0.3922 (ee = 0.00109) | B = 200000 | set.seed(20260732)
+   V de Cramér: 0.1846
+
+Proporción que elige Manejo y Aprovechamiento del Paisaje Rural, por área:
+   Agronómica  15 de 28 =  53.6%
+   Alimentos     2 de  2 = 100.0%
+   Economía     0 de  3 =   0.0%
+   Otras        10 de 18 =  55.6%
+   Social       28 de 49 =  57.1%

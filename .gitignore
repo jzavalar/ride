@@ -1,0 +1,8 @@
+# Archivos que generan las corridas locales
+repositorio/_verificacion_manual/
+repositorio/datos_15.figuras/pies-de-figura.md
+corrida_1.txt
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/

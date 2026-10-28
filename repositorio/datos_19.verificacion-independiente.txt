@@ -1,0 +1,19 @@
+==============================================================================
+VERIFICACION INDEPENDIENTE EN PYTHON DE LAS CIFRAS CANONICAS (datos_17, R)
+==============================================================================
+Python 3.13.17 | numpy 2.5.3 | pandas 3.0.5 | scipy 1.18.1
+Semilla 20260726 | B = 200000 (RQ6, RQ7) | B = 50000 (RQ8) | algoritmo: permutacion de etiquetas
+
+RQ1  interes: 100/113 = 88.5 %  IC 95 % Clopper-Pearson [81.13, 93.73]
+RQ8  permanencia: 82/100 = 82.0 %  IC 95 % [73.05, 88.97]
+
+Genero x interes (n = 113): Fisher p = 0.7705 | ji cuadrada sin correccion p = 0.7228 | V = 0.0334
+Edad x interes: beta = -0.03727 por anio | z = -1.4150 | p = 0.1571 | Spearman rho = -0.0467, p = 0.6234
+
+RQ6a situacion laboral x plazo: n = 98 | tabla 5 x 5 | esperadas < 5: 76.0 % | p = 0.2902 (ee 0.0010) | V = 0.2105
+RQ6b situacion laboral x motivacion: n = 98 | tabla 5 x 4 | esperadas < 5: 55.0 % | p = 0.0773 (ee 0.0006) | V = 0.2403
+RQ7  area x linea: n = 100 | tabla 5 x 8 | esperadas < 5: 87.5 % | p = 0.0347 (ee 0.0004) | V = 0.4168
+RQ7  sensibilidad: areas con >= 5 casos: n = 95 | tabla 3 x 7 | esperadas < 5: 71.4 % | p = 0.2035 (ee 0.0009) | V = 0.3003
+RQ8  entidad de estudios x residencia: n = 100 | tabla 17 x 24 | esperadas < 5: 100.0 % | p = 0.0000 (ee 0.0000) | V = 0.8900
+
+MCA (n = 98, 6 variables): valores propios 0.364 y 0.303 | inercia 9.49 % + 7.92 % = 17.41 % (inercia total 3.833)

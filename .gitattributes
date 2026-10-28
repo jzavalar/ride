@@ -1,0 +1,9 @@
+# Conserva byte a byte los datos y las salidas que se comparan entre corridas
+*.csv     -text
+*.txt     -text
+*.geojson -text
+*.rds     binary
+*.xlsx    binary
+*.docx    binary
+*.pdf     binary
+*.png     binary
