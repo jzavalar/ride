@@ -44,4 +44,9 @@ En esta versión para arbitraje, la institución de procedencia aparece con el c
 
 ## Licencia
 
-Creative Commons Atribución 4.0 Internacional (CC BY 4.0). Ver `LICENSE.txt`.
+Creative Commons Atribución 4.0 Internacional (CC BY 4.0). El texto legal completo está en `LICENSE.txt`; resumen en español: https://creativecommons.org/licenses/by/4.0/deed.es
+
+Los datos, el instrumento de levantamiento, los scripts y su documentación pueden copiarse, redistribuirse, adaptarse y usarse para cualquier fin, incluso comercial, siempre que se otorgue el crédito correspondiente, se indique si se realizaron cambios y se enlace a la licencia.
+
+**Cómo citar (versión para arbitraje ciego):**
+Autor/a. (s.f.). Repositorio de datos y materiales complementarios [Conjunto de datos].
